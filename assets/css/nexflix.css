@@ -73,7 +73,7 @@ body {
   margin-bottom: 10px;
 }
 .main h2 {
-  margin-bottom: 20px;
+  margin: 15px 0 30px;
 }
 .list-content {
   display: flex;
@@ -179,11 +179,11 @@ body {
     margin: auto;
   }
   .navigation-item:hover :is(path, span) {
-    fill: #fff;
-    color: #fff;
+    fill: #fff !important;
+    color: #fff !important;
   }
   .main {
-    margin-bottom: 100px;
+    margin-bottom: 110px;
     padding-top: 0;
   }
   .credits {
