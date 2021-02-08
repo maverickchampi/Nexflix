@@ -15,7 +15,7 @@
 
     <?php include("link.php") ?>
     <?php include("structure/header.php"); ?>
-    <?php $nex = $nexflix[3]; ?> <!-- Unica linea a cambiar -->
+    <?php $nex = $nexflix[5]; ?> <!-- Unica linea a cambiar -->
     <main>
         <div class="pelicula-principal" id="pelicula-principal">
             <div class="contenedor">

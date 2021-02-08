@@ -19,22 +19,22 @@
     </a>
 </div>
 <div class="list-item">
-    <a href="#">
+    <a href="_el_stand_de_besos.php">
         <img src="assets/images/covers/El_stand_de_los_besos.jpg">
     </a>
 </div>
 <div class="list-item">
-    <a href="#">
+    <a href="_historia_de_un_matrimonio.php">
         <img src="assets/images/covers/historia-de-un-matrimonio.jpg">
     </a>
 </div>
 <div class="list-item">
-    <a href="#">
+    <a href="_bright.php">
         <img src="assets/images/covers/Bright.jpg">
     </a>
 </div>
 <div class="list-item">
-    <a href="#">
+    <a href="_dos_papas.php">
         <img src="assets/images/covers/los-dos-papas.jpg">
     </a>
 </div>

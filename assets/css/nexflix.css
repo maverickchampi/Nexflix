@@ -220,7 +220,7 @@ body {
   padding: 0 1em 1em;
 }
 
-.busqueda {
+/* .busqueda {
   max-width: 1264px;
 }
 .busqueda iframe {
@@ -267,7 +267,7 @@ body {
   line-height: 1;
   color: #fff;
   text-decoration: none;
-}
+} */
 @media screen and (max-width: 495px) {
   .busqueda .search-box {
     display: block;

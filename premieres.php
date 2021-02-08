@@ -16,7 +16,7 @@
   <?php include("structure/header.php"); ?>
   <main class="main">
     <div class="list">
-      <h2 class="list-title">Próximos películas</h2>
+      <h2 class="list-title">Próximas películas</h2>
       <button role="button" onclick="moverIzquierda('premieres-movies')" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
       <div class="list-content" id="premieres-movies">
         <div class="list-item">
@@ -53,7 +53,7 @@
       <button role="button" onclick="moverDerecha('premieres-movies')" class="flecha-derecha r-one"><i class="fas fa-angle-right"></i></button>
     </div>
     <div class="list">
-      <h2 class="list-title">Próximos series</h2>
+      <h2 class="list-title">Próximas series</h2>
       <button role="button" onclick="moverIzquierda('premieres-series')" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
       <div class="list-content" id="premieres-series">
         <div class="list-item">
