@@ -131,10 +131,10 @@ body {
   transition: 0.2s ease all;
   outline: none;
 }
-.flecha-izquierda:hover,
+/* .flecha-izquierda:hover,
 .flecha-derecha:hover {
   transform: scale(1.2);
-}
+} */
 .flecha-izquierda {
   left: 0;
 }
