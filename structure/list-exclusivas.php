@@ -1,20 +1,20 @@
 <div class="list-item">
-    <a href="#">
+    <a href="_el-hoyo.php">
         <img src="assets/images/covers/el-hoyo.jpg">
     </a>
 </div>
 <div class="list-item">
-    <a href="#">
+    <a href="_mision-rescate.php">
         <img src="assets/images/covers/mision-resacte.jpg">
     </a>
 </div>
 <div class="list-item">
-    <a href="#">
+    <a href="_el-irlandes.php">
         <img src="assets/images/covers/el-irlandes.jpg">
     </a>
 </div>
 <div class="list-item">
-    <a href="#">
+    <a href="_malcom-y-marie.php">
         <img src="assets/images/covers/malcom-y-marie.jpeg">
     </a>
 </div>

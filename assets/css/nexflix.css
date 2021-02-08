@@ -22,10 +22,12 @@ body {
   background-color: var(--color-primary);
   color: var(--color-secondary);
   font-family: Netflix;
+  max-width: 1264px;
+  margin: auto;
 }
 .header {
   min-width: 250px;
-  /* max-width: 1264px; */
+  max-width: 1264px;
   width: 100%;
   padding: 15px;
   position: fixed;
@@ -64,7 +66,7 @@ body {
 }
 .main {
   min-width: 250px;
-  /* max-width: 1264px; */
+  max-width: 1264px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -78,8 +80,8 @@ body {
 .list-content {
   display: flex;
   white-space: nowrap;
-	overflow: hidden;
-	scroll-behavior: smooth;
+  overflow: hidden;
+  scroll-behavior: smooth;
 }
 .list-item {
   display: inline-block;
@@ -99,7 +101,7 @@ body {
 }
 .footer {
   min-width: 250px;
-  /* max-width: 1264px; */
+  max-width: 1264px;
   width: 100%;
   margin: auto;
 }
@@ -150,6 +152,130 @@ body {
 .r-three {
   top: 913px;
 }
+.r-four {
+  top: 707px;
+}
+.pelicula-principal {
+  font-size: 16px;
+  min-height: 650px;
+  color: #fff;
+  margin-bottom: 3.12em;
+  display: flex;
+  align-items: end;
+}
+.pelicula-principal h3 {
+  margin-top: 75px;
+}
+.pelicula-principal .contenedor {
+  margin-left: 50px;
+  margin-top: 50px;
+  /* margin-bottom: 5.25em; */
+}
+.pelicula-principal {
+  max-width: 1264px;
+  margin: auto;
+}
+.pelicula-principal .titulo {
+  font-weight: 600;
+  font-size: 3.12em;
+  margin-bottom: 0.4em;
+}
+.pelicula-principal .descripcion {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.75em;
+  max-width: 50%;
+  margin-bottom: 1.25em;
+}
+.pelicula-principal .boton {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 0.31em;
+  padding: 0.93em 1.87em;
+  color: #fff;
+  margin-right: 1.25em;
+  margin-bottom: 1.25em;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  font-size: 1.12em;
+  outline: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.pelicula-principal .boton:hover {
+  background: #fff;
+  color: #000;
+}
+.pelicula-principal .boton i {
+  margin-right: 1.25em;
+}
+.section {
+  margin: 10px auto;
+  max-width: 1264px;
+}
+.section h2 {
+  margin-bottom: 20px;
+}
+.section .list {
+  padding: 0 1em 1em;
+}
+
+.busqueda {
+  max-width: 1264px;
+}
+.busqueda iframe {
+  width: 100%;
+  height: 50vh;
+  outline: none;
+}
+.busqueda .search-box {
+  display: flex;
+}
+.busqueda .pop-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  transition: opacity 0ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 999;
+  background: rgba(25, 23, 23, 0.81);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.85);
+  height: 100vh;
+}
+.busqueda .pop-overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.busqueda .popup {
+  margin: 0 auto;
+  min-width: 250px;
+  max-width: 800px;
+  border-radius: 3px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 2em;
+}
+.busqueda .pop-overlay .close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+}
+@media screen and (max-width: 495px) {
+  .busqueda .search-box {
+    display: block;
+  }
+  .busqueda .popup {
+    padding: 1em;
+  }
+}
 @media screen and (max-width: 767px) {
   .header {
     position: relative;
@@ -187,6 +313,13 @@ body {
     margin-bottom: 110px;
     padding-top: 0;
   }
+  .pelicula-principal h3 {
+    margin-top: 0px;
+  }
+  .section {
+    margin-bottom: 110px;
+    padding-top: 0;
+  }
   .credits {
     bottom: 0;
     left: 0;
@@ -208,5 +341,24 @@ body {
   }
   .r-three {
     top: 897px;
+  }
+  .r-four {
+    top: 693px;
+  }
+  .pelicula-principal {
+    min-height: 575px;
+  }
+  .pelicula-principal .descripcion {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .pelicula-principal .descripcion {
+    max-width: 75%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .pelicula-principal .descripcion {
+    max-width: 90%;
   }
 }
