@@ -25,7 +25,7 @@ body {
 }
 .header {
   min-width: 250px;
-  max-width: 1264px;
+  /* max-width: 1264px; */
   width: 100%;
   padding: 15px;
   position: fixed;
@@ -64,7 +64,7 @@ body {
 }
 .main {
   min-width: 250px;
-  max-width: 1264px;
+  /* max-width: 1264px; */
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -78,7 +78,8 @@ body {
 .list-content {
   display: flex;
   white-space: nowrap;
-  overflow-x: hidden;
+	overflow: hidden;
+	scroll-behavior: smooth;
 }
 .list-item {
   display: inline-block;
@@ -98,7 +99,7 @@ body {
 }
 .footer {
   min-width: 250px;
-  max-width: 1264px;
+  /* max-width: 1264px; */
   width: 100%;
   margin: auto;
 }
@@ -141,13 +142,13 @@ body {
   right: 0;
 }
 .r-one {
-  top: 124px;
+  top: 149px;
 }
 .r-two {
-  top: 480px;
+  top: 528px;
 }
 .r-three {
-  top: 838px;
+  top: 913px;
 }
 @media screen and (max-width: 767px) {
   .header {
@@ -200,12 +201,12 @@ body {
     width: 0;
   }
   .r-one {
-    top: 108px;
+    top: 133px;
   }
   .r-two {
-    top: 465px;
+    top: 515px;
   }
   .r-three {
-    top: 820px;
+    top: 897px;
   }
 }
