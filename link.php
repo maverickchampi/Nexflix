@@ -105,11 +105,10 @@ más importantes de la vida.',
 'https://image.tmdb.org/t/p/w1280/kf456ZqeC45XTvo6W9pW5clYKfQ.jpg');
 
 $nexflix[11] = new nexflix('Avengers: Endgame', 
-'Es el año 2012. Frustrado por el rumbo que está tomando la iglesia, 
-el cardenal Bergoglio (Jonathan Pryce) solicita el permiso del Papa 
-Benedicto (Anthony Hopkins) para retirarse. Sin embargo, el Papa Benedicto 
-convocará a su crítico y futuro sucesor en Roma. Entre ambos se sucederán 
-extensas charlas para buscar posturas en común.', 
+'Tras los sucesos de “Vengadores: Infinity War”, los superhéroes que 
+sobrevivieron a Thanos se reunen para poner en práctica un plan definitivo 
+que podría acabar con el villano definitivamente. No saben si funcionará, 
+pero es su única oportunidad de intentarlo.', 
 'https://www.youtube.com/embed/TcMBFSGVi1c',
 'https://image.tmdb.org/t/p/w1280/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg');
 
