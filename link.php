@@ -144,4 +144,65 @@ la historia de Hipo, un vikingo adolescente.',
 
 /*Series*/
 
+$nexflix[16] = new nexflix('Wanda Vision', 
+'Bruja Escarlata y Visión de Marvel Studios combina el estilo de 
+«sitcom clásicas» con el Universo Cinematográfico de Marvel. Wanda Maximoff 
+y Visión, dos seres súper poderosos que viven sus vidas cotidianas ideales, 
+comienzan a sospechar que no todo es como parece.', 
+'https://www.youtube.com/embed/UuhqbcMNrME',
+'https://image.tmdb.org/t/p/w1280//lOr9NKxh4vMweufMOUDJjJhCRHW.jpg');
+
+$nexflix[17] = new nexflix('The Walking Dead', 
+'“The Walking Dead” está ambientada en un futuro apocalíptico con la Tierra 
+devastada por el efecto de un cataclismo, que ha provocado la mutación en 
+zombies de la mayor parte de los habitantes del planeta.', 
+'https://www.youtube.com/embed/aQvmRkxqceA',
+'https://www.hola.com/imagenes/actualidad/20200629171176/quien-cuidaba-rick-grimes-walking-dead-gt/0-841-916/portada-walking-t.jpg?filter=w600&filter=ds75');
+
+$nexflix[18] = new nexflix('Breaking Bad', 
+'El profesor calmado de química de una secundaria, Walter White cree que 
+su vida no puede ser peor. Su salario apenas le alcanza para sostener a su 
+familia, una situación que no mejora cuando su esposa da a luz y su hijo 
+adolescente sufre de parálisis cerebral, pero Walter queda anonadado cuando 
+se entera que tiene un cáncer terminal.', 
+'https://www.youtube.com/embed/mXd1zTwcQ18',
+'https://p4.wallpaperbetter.com/wallpaper/12/292/881/breaking-bad-tv-wallpaper-preview.jpg');
+
+$nexflix[19] = new nexflix('Game of Thrones', 
+'Juego de Tronos es una serie de televisión de drama y fantasía creada para 
+la HBO por David Benioff y D. B. Weiss. Es una adaptación de la saga de novelas 
+de fantasía Canción de Hielo y Fuego de George R. R. Martin. La primera de las 
+novelas es la que da nombre a la serie.', 
+'https://www.youtube.com/embed/BpJYNVhGf1s',
+'https://image.tmdb.org/t/p/w1280//qLsx6viZ0NBYQ6nhZ4OOrWXuiBj.jpg');
+
+$nexflix[20] = new nexflix('La Casa de Papel', 
+'Un enigmático personaje llamado el Profesor planea algo grande: llevar a cabo 
+el mayor atraco de la historia. Para ello recluta una banda de ocho personas que 
+reúnen un único requisito, ninguno tiene nada que perder.', 
+'https://www.youtube.com/embed/To_kVMMu-Ls',
+'https://i.blogs.es/458cc7/casa-papel-parte-4/1366_2000.jpeg');
+
+$nexflix[21] = new nexflix('Gambito de Dama', 
+'Cuenta la historia de Beth Harmon, una joven prodigio del ajedrez que ha 
+tenido una infancia complicada, por lo que sus habilidades sociales no son las 
+mejores y además sufre de cierta tendencia a la adicción de drogas, medicamentos 
+o alcohol', 
+'https://www.youtube.com/embed/lbleRbyGKL4',
+'https://i1.wp.com/hiramnoriega.com/wp-content/uploads/2020/10/2354543654.jpg?fit=900%2C506&ssl=1');
+
+$nexflix[22] = new nexflix('The Boys', 
+'Un grupo de vigilantes se dispuso a acabar con los superhéroes corruptos 
+que abusan de sus superpoderes.', 
+'https://www.youtube.com/embed/tcrNsIaQkb4',
+'https://image.tmdb.org/t/p/w1280//bI37vIHSH7o4IVkq37P8cfxQGMx.jpg');
+
+$nexflix[23] = new nexflix('The End of the F***ing World', 
+'Un psicópata adolescente y una chica rebelde con sed de aventura emprenden 
+un accidentado viaje por carretera en esta serie de humor negro basada en una 
+novela gráfica.', 
+'https://www.youtube.com/embed/1mhWzjgbLO0',
+'https://image.tmdb.org/t/p/w1280//up1HuhhJnzrJ8El0ZJqpKNf0piL.jpg');
+
+
 ?>
