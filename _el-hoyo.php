@@ -23,19 +23,19 @@
                 <p class="descripcion">
                     <?php echo $nex->description ?>
                 </p>
-                <a href='<?php echo $nex->link ?>' title="search"><button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button></a>
+                <a href='#search' title="search"><button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button></a>
                 <a href="index.php" role="button" class="boton"><i class="fas fa-plus"></i>Explorar</a>
             </div>
         </div>
     </main>
-    <!-- <div class="busqueda">
+    <div class="busqueda">
         <div id="search" class="pop-overlay">
             <div class="popup">
                 <iframe src='<?php echo $nex->link ?>' frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <a class="close" href="#close">×</a>
         </div>
-    </div> -->
+    </div>
     <section class="section">
         <div class="list">
             <h2 class="list-title">Recomendaciones</h2>

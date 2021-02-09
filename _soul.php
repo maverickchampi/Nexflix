@@ -15,7 +15,7 @@
 
     <?php include("link.php") ?>
     <?php include("structure/header.php"); ?>
-    <?php $nex = $nexflix[5]; ?> <!-- Unica linea a cambiar -->
+    <?php $nex = $nexflix[10]; ?> <!-- Unica linea a cambiar -->
     <main>
         <div class="pelicula-principal" id="pelicula-principal">
             <div class="contenedor">
@@ -39,11 +39,11 @@
     <section class="section">
         <div class="list">
             <h2 class="list-title">Recomendaciones</h2>
-            <button role="button" onclick="moverIzquierda('movies')" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
-            <div class="list-content" id="movies">
-                <?php include("structure/list-movies.php"); ?>
+            <button role="button" onclick="moverIzquierda('series')" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+            <div class="list-content" id="series">
+                <?php include("structure/list-series.php"); ?>
             </div>
-            <button role="button" onclick="moverDerecha('movies')" class="flecha-derecha r-four"><i class="fas fa-angle-right"></i></button>
+            <button role="button" onclick="moverDerecha('series')" class="flecha-derecha r-four"><i class="fas fa-angle-right"></i></button>
         </div>
     </section>
     <?php include("structure/footer.php"); ?>
