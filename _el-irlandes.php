@@ -30,20 +30,20 @@
     </main>
     <div class="busqueda">
         <div id="search" class="pop-overlay">
-            <div class="popup">
+            <div id="popup" class="popup">
                 <iframe src='<?php echo $nex->link ?>' frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <a class="close" href="#close">×</a>
+            <a class="close" href="#close" onclick="detener()">×</a>
         </div>
     </div>
     <section class="section">
         <div class="list">
             <h2 class="list-title">Recomendaciones</h2>
-            <button role="button" onclick="moverIzquierda('movies')" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
-            <div class="list-content" id="movies">
-                <?php include("structure/list-movies.php"); ?>
+            <button role="button" onclick="moverIzquierda('series')" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+            <div class="list-content" id="series">
+                <?php include("structure/list-series.php"); ?>
             </div>
-            <button role="button" onclick="moverDerecha('movies')" class="flecha-derecha r-four"><i class="fas fa-angle-right"></i></button>
+            <button role="button" onclick="moverDerecha('series')" class="flecha-derecha r-four"><i class="fas fa-angle-right"></i></button>
         </div>
     </section>
     <?php include("structure/footer.php"); ?>

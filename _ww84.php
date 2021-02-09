@@ -30,10 +30,10 @@
     </main>
     <div class="busqueda">
         <div id="search" class="pop-overlay">
-            <div class="popup">
+            <div id="popup" class="popup">
                 <iframe src='<?php echo $nex->link ?>' frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <a class="close" href="#close">×</a>
+            <a class="close" href="#close" onclick="detener()">×</a>
         </div>
     </div>
     <section class="section">

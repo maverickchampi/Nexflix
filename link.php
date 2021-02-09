@@ -74,10 +74,10 @@ policía.',
 
 $nexflix[7] = new nexflix('Los dos papas', 
 'Es el año 2012. Frustrado por el rumbo que está tomando la iglesia, 
-el cardenal Bergoglio (Jonathan Pryce) solicita el permiso del Papa 
-Benedicto (Anthony Hopkins) para retirarse. Sin embargo, el Papa Benedicto 
-convocará a su crítico y futuro sucesor en Roma. Entre ambos se sucederán 
-extensas charlas para buscar posturas en común.', 
+el cardenal Bergoglio solicita el permiso del Papa Benedicto 
+para retirarse. Sin embargo, el Papa Benedicto convocará a su crítico y 
+futuro sucesor en Roma. Entre ambos se sucederán extensas charlas para 
+buscar posturas en común.', 
 'https://www.youtube.com/embed/epf-XMQ5Q8M',
 'https://image.tmdb.org/t/p/w1280/bOPessdyd0dChHy70FM8Om7CgDg.jpg');
 
